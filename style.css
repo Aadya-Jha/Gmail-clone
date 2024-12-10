@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+  font-family: "Google Sans", "Roboto", Arial, sans-serif;
+}
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.header {
+  background-color: aqua;
+  height: 10vh;
+  width: 100vw;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-container {
+  align-items: end;
+  background-color: bisque;
+  height: 90vh;
+  width: 20vw;
+}
+.right-container {
+  background-color: blueviolet;
+  height: 90vh;
+  width: 4.5vw;
+}
+.content-container {
+  background-color: #765f5f;
+  height: 88vh;
+  width: 75vw;
+  border-radius: 30px;
+}
+.content-header {
+  background-color: white;
+  height: 7vh;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 15px;
+}
+.content-header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.content-header-right {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-3-dots {
+  height: 3vh;
+  width: 3vh;
+}
+#header-refresh {
+  height: 3vh;
+  width: 3vh;
+}
+#header-left-arrow,
+#header-right-arrow {
+  height: 1.5vh;
+  width: 1.5vh;
+  margin: 0px 15px 0px 15px;
+  background-color: white;
+}
+.content-header-right p {
+  background-color: white;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0px 15px 0px 15px;
+}
+.content-header-left input {
+  height: 2.5vh;
+  width: 2.5vw;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(0, 0, 0);
+}
+.content-header-left select {
+  height: 2.5vh;
+  width: 1vw;
+  border: none;
+  background-color: white;
+  margin-right: 20px;
+}
+#header-refresh {
+  height: 2.4vh;
+  width: 2.4vh;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: white;
+}
+#header-3-dots {
+  height: 3vh;
+  width: 3vh;
+  background-color: white;
+  margin-left: 15px;
+}
