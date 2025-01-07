@@ -47,7 +47,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 35px 0px 15px;
+  padding: 0px 23px 0px 15px;
   /* box-shadow: 10px 10px 20px 10px rgba(149, 25, 25, 0.1); */
 }
 .content-header-left {
@@ -55,6 +55,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  height: 99%;
 }
 .content-header-right {
   background-color: white;
@@ -64,30 +65,52 @@
 }
 
 #header-3-dots {
-  margin-top: 2px;
+  /* margin-top: 2px; */
   height: 2.5vh;
   width: 2.5vh;
+  padding: 9px;
+}
+#header-3-dots:hover {
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
 }
 #header-refresh {
-  margin-top: 3px;
   height: 2.5vh;
   width: 2.5vh;
+  padding: 10px;
+}
+#header-refresh:hover {
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 46%;
+  cursor: pointer;
 }
 #header-left-arrow,
 #header-right-arrow {
   height: 1.5vh;
   width: 1.5vh;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;
   background-color: white;
+  padding: 15px;
 }
-#header-left-arrow {
-  margin-right: 18px;
+
+#header-left-arrow:hover,
+#header-right-arrow:hover {
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
 }
 .content-header-right p {
   background-color: white;
-  font-size: 12.5px;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
-  margin: 0px 15px 0px 15px;
+  margin: 0px 0px 0px 15px;
+  padding: 10px 8px;
+}
+.content-header-right p:hover {
+  cursor: pointer;
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 4px;
 }
 .content-header-left input {
   height: 2.3vh;
@@ -111,9 +134,11 @@
 }
 .checkbox:hover {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.087);
-  border-radius: 2px;
-  transition: all 0.4s ease-in-out;
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 4px;
+}
+#cb:hover {
+  cursor: pointer;
 }
 
 .content-header-left select {
@@ -122,12 +147,15 @@
   border: none;
   background-color: white;
   margin-right: 20px;
+  padding-left: 1px;
+}
+select:hover {
+  cursor: pointer;
 }
 #header-refresh {
   height: 2.4vh;
   width: 2.4vh;
-  margin-left: 2px;
-  margin-right: 15px;
+
   background-color: white;
 }
 #header-3-dots {
