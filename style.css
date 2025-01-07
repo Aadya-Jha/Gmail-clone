@@ -1,13 +1,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: #f2f2f2;
+
   font-family: "Google Sans", "Roboto", Arial, sans-serif;
 }
 .main-container {
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-color: #f2f2f2;
 }
 .header {
   background-color: aqua;
@@ -95,6 +96,9 @@
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid rgb(0, 0, 0);
 }
+.content-header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
 .checkbox {
   height: 5vh;
   width: 2.3vw;
@@ -170,7 +174,7 @@
 }
 ::-webkit-scrollbar-thumb {
   background: #8888887d;
-  border: 1.4px solid #5555558c;
+  border: 1.4px solid #55555537;
   border-right: none;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -184,4 +188,54 @@
   border-left: 1.4px solid #60606050;
   background: #71707020;
   transition: all 0.4s ease-in-out;
+}
+
+.mail-card-header {
+  height: 7vh;
+  width: 100%;
+  display: grid;
+  padding-right: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#inbox {
+  height: 2.5vh;
+  width: 2.5vh;
+}
+#promotion {
+  height: auto;
+  width: 3vh;
+}
+#social {
+  height: auto;
+  width: 3vh;
+}
+#info {
+  height: auto;
+  width: 3vh;
+}
+.mail-card-header-child {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 21px;
+  gap: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.mail-card-header-child:hover {
+  cursor: pointer;
+  background-color: rgba(133, 132, 132, 0.1);
+}
+.active {
+  border-bottom: 2px solid #0b57d0;
+  height: 100%;
+  width: 90%;
+  margin: 0 0 0 -10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding: 0 10px 0 10px;
+  color: #0b57d0;
 }
