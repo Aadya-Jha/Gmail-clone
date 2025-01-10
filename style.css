@@ -187,11 +187,65 @@ select:hover {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.mail-card {
+.mail-card-main-container {
   background-color: white;
-  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+  margin-right: 8px;
+  /* margin-top: 10px; */
 }
-
+.mail-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 3px 3px 3px 5px;
+  cursor: pointer;
+  gap: 15px;
+}
+.mail-left-part {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+}
+.mail-left-part > p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.mail-center-part {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 75%;
+}
+.mail-center-part > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+#six-dots {
+  height: auto;
+  width: 2vh;
+}
+#box-light {
+  height: auto;
+  width: 3vh;
+}
+#star-light {
+  height: auto;
+  width: 3vh;
+  padding: 0px 0 0 11px;
+}
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -248,7 +302,7 @@ select:hover {
   justify-content: start;
   padding-left: 21px;
   gap: 20px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 .mail-card-header-child:hover {
