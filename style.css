@@ -11,9 +11,10 @@
   background-color: #f2f2f2;
 }
 .header {
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0);
   height: 9vh;
   width: 100vw;
+  display: flex;
 }
 .sub-container {
   display: flex;
@@ -329,4 +330,68 @@ select:hover {
   gap: 20px;
   padding: 0 10px 0 10px;
   color: #0b57d0;
+}
+.bi-list{
+  padding: 12px;
+  margin: 4px;
+  color: black;
+  align-items: center;
+  height: 28px;
+  width: 28px;
+}
+.header-flow{
+  display: flex;
+  padding: 5px;
+  padding-right: 70px;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.gmail-logo{
+  height: 7vh;
+  width: auto;
+  max-width: 12vw;
+  margin-right: 20px;
+}
+.search-bar{
+  padding: 10px;
+  height: 7vh;
+  width:30vw;
+  color:rgb(128, 128, 128);
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  border-radius: 25px;
+}
+.bi-search{
+  color: black;
+  align-items: center;
+  padding-right: 15px;
+}
+.header-bar{
+  display: flex;
+}
+.search-mail{
+  padding-right: 120px;
+}
+#support{
+  height: auto;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  color: rgb(109, 107, 107);
+  align-items: center;
+  padding-top: px;
+}
+#settings{
+  display: flex;
+  width: 30px;
+  color: rgb(109, 107, 107); 
+  align-items: center;
+  padding: 15px;
+  height: auto;
+}
+.side-icons{
+  display:flex;
+  flex-direction:row;
 }
