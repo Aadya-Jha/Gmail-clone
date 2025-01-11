@@ -22,14 +22,18 @@
 }
 .left-container {
   align-items: end;
-  background-color: bisque;
   height: 90vh;
   width: 19vw;
 }
 .right-container {
-  background-color: blueviolet;
   height: 90vh;
   width: 4.5vw;
+  display: flex;
+  flex-direction: column;
+}
+.top-right-container{
+  height: 80vh;
+  width: 4.5vw;
 }
 .content-container {
   background-color: #765f5f;
@@ -409,4 +413,90 @@ select:hover {
 .side-icons {
   display: flex;
   flex-direction: row;
+}
+.calendar{
+  height: auto;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 2.5px;
+}
+.keep-icon{
+  height: auto;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 7px;
+}
+.google-calendar{
+  align-items: center;
+  justify-content: center;
+}
+.google-keep{
+  align-items: center;
+  justify-content: center;
+}
+.tasks{
+  height: auto;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+}
+.contacts{
+  height: auto;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+}
+.add-ons{
+  height: auto;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+.blank{
+  padding: 10px 10px 10px 10px;
+  height: 40px;
+  width: auto;
+}
+.hide-side-panel{
+  height: 12px;
+  width: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 17px;
+  color: rgb(0, 0, 0);
+}
+.calendar:hover, .keep-icon:hover, .tasks:hover, .contacts:hover, .add-ons:hover, .hide-side-panel:hover{
+  cursor: pointer;
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 50%;
+}
+.compose-box{
+  height: 72px;
+  width: 80px;
+}
+#settings:hover, #support:hover{
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(133, 132, 132, 0.1);
+}
+.compose{
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
 }
