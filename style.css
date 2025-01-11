@@ -195,7 +195,7 @@ select:hover {
   justify-content: start;
   width: 100%;
   gap: 10px;
-  margin-right: 8px;
+  margin-right: 15px;
   /* margin-top: 10px; */
 }
 .mail-card {
@@ -205,7 +205,7 @@ select:hover {
   flex-direction: row;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 3px 3px 3px 5px;
+  padding: 3px 15px 7px 5px;
   cursor: pointer;
   gap: 15px;
 }
@@ -230,8 +230,17 @@ select:hover {
 }
 .mail-center-part > p {
   font-size: 0.9rem;
+  font-weight: 700;
+  /* padding-left: 10px; */
+}
+.mail-center-part > p > span {
+  font-size: 0.9rem;
   font-weight: 500;
-  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.mail-center-part > .date {
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 #six-dots {
   height: auto;
