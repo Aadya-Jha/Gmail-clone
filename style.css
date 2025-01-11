@@ -553,9 +553,164 @@ select:hover {
 .compose {
   height: 35px;
   width: 35px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   margin: 8px 8px 8px 8px;
   padding: 10px;
   color: rgb(0, 0, 0);
+}
+.inbox-side{
+  height: 25px;
+  width: auto;
+  margin: 2px 15px 2px 30px;
+}
+#inbox-left-container{
+  background-color:rgb(148, 208, 208) ;
+  height: 30px;
+  width: 220px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  margin: 20px 0px 10px 0px;
+}
+.inbox-text{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 80px 0px 0px;
+  line-height: 30px;
+}
+.inbox-text-number{
+  line-height: 30px;
+}
+.starred-icon, .snoozed-icon{
+  height: 25px;
+  width: auto;
+  margin: 2px 15px 2px 30px;
+}
+.starred, .snoozed{
+  background-color:rgb(148, 208, 208) ;
+  height: 30px;
+  width: 220px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+}
+.starred-text, .snoozed-text{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 80px 0px 0px;
+  line-height: 30px;
+}
+#support {
+  height: auto;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  color: rgb(109, 107, 107);
+  align-items: center;
+  padding-top: px;
+}
+#settings {
+  display: flex;
+  width: 30px;
+  color: rgb(109, 107, 107);
+  align-items: center;
+  padding: 15px;
+  height: auto;
+}
+.side-icons {
+  display: flex;
+  flex-direction: row;
+}
+.calendar{
+  height: auto;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 2.5px;
+}
+.keep-icon{
+  height: auto;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 7px;
+}
+.google-calendar{
+  align-items: center;
+  justify-content: center;
+}
+.google-keep{
+  align-items: center;
+  justify-content: center;
+}
+.tasks{
+  height: auto;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+}
+.contacts{
+  height: auto;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+}
+.add-ons{
+  height: auto;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+.blank{
+  padding: 10px 10px 10px 10px;
+  height: 40px;
+  width: auto;
+}
+.hide-side-panel{
+  height: 12px;
+  width: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 8px 8px;
+  padding: 17px;
+  color: rgb(0, 0, 0);
+}
+.calendar:hover, .keep-icon:hover, .tasks:hover, .contacts:hover, .add-ons:hover, .hide-side-panel:hover{
+  cursor: pointer;
+  background-color: rgba(133, 132, 132, 0.1);
+  border-radius: 50%;
+}
+.compose-box{
+  height: 72px;
+  width: 180px;
+  border-radius: 30px;
+  background-color: rgb(173, 227, 227);
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.compose-text{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 20px;
+  display: inline-block;
+}
+#settings:hover, #support:hover{
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(133, 132, 132, 0.1);
 }
