@@ -31,9 +31,9 @@
   display: flex;
   flex-direction: column;
 }
-.top-right-container{
+.top-right-container {
   height: 80vh;
-  width: 4.5vw;
+  width: 4.5vw;
 }
 .content-container {
   background-color: #765f5f;
@@ -210,7 +210,7 @@ select:hover {
   flex-direction: row;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 7px 4px 7px 5px;
+  padding: 9px 4px 10px 5px;
   cursor: pointer;
   gap: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0);
@@ -231,6 +231,18 @@ select:hover {
   }
   .mail-card-utils {
     display: flex;
+  }
+  #box-dark {
+    display: block;
+  }
+  #star-dark {
+    display: block;
+  }
+  #box-light {
+    display: none;
+  }
+  #star-light {
+    display: none;
   }
 }
 .mail-card-utils {
@@ -295,6 +307,17 @@ select:hover {
   height: auto;
   width: 2vh;
   opacity: 0;
+}
+#box-dark {
+  display: none;
+  height: auto;
+  width: 3vh;
+}
+#star-dark {
+  display: none;
+  height: auto;
+  width: 2.8vh;
+  padding: 0px 0 0 11px;
 }
 #box-light {
   height: auto;
@@ -444,7 +467,7 @@ select:hover {
   display: flex;
   flex-direction: row;
 }
-.calendar{
+.calendar {
   height: auto;
   width: 40px;
   align-items: center;
@@ -452,7 +475,7 @@ select:hover {
   margin: 8px 8px 8px 8px;
   padding: 2.5px;
 }
-.keep-icon{
+.keep-icon {
   height: auto;
   width: 30px;
   align-items: center;
@@ -460,15 +483,15 @@ select:hover {
   margin: 8px 8px 8px 8px;
   padding: 7px;
 }
-.google-calendar{
+.google-calendar {
   align-items: center;
   justify-content: center;
 }
-.google-keep{
+.google-keep {
   align-items: center;
   justify-content: center;
 }
-.tasks{
+.tasks {
   height: auto;
   width: 25px;
   align-items: center;
@@ -476,7 +499,7 @@ select:hover {
   margin: 8px 8px 8px 8px;
   padding: 10px;
 }
-.contacts{
+.contacts {
   height: auto;
   width: 25px;
   align-items: center;
@@ -484,7 +507,7 @@ select:hover {
   margin: 8px 8px 8px 8px;
   padding: 10px;
 }
-.add-ons{
+.add-ons {
   height: auto;
   width: 25px;
   align-items: center;
@@ -493,12 +516,12 @@ select:hover {
   padding: 10px;
   color: rgb(0, 0, 0);
 }
-.blank{
+.blank {
   padding: 10px 10px 10px 10px;
   height: 40px;
   width: auto;
 }
-.hide-side-panel{
+.hide-side-panel {
   height: 12px;
   width: 12px;
   align-items: center;
@@ -507,21 +530,27 @@ select:hover {
   padding: 17px;
   color: rgb(0, 0, 0);
 }
-.calendar:hover, .keep-icon:hover, .tasks:hover, .contacts:hover, .add-ons:hover, .hide-side-panel:hover{
+.calendar:hover,
+.keep-icon:hover,
+.tasks:hover,
+.contacts:hover,
+.add-ons:hover,
+.hide-side-panel:hover {
   cursor: pointer;
   background-color: rgba(133, 132, 132, 0.1);
   border-radius: 50%;
 }
-.compose-box{
+.compose-box {
   height: 72px;
   width: 80px;
 }
-#settings:hover, #support:hover{
+#settings:hover,
+#support:hover {
   cursor: pointer;
   border-radius: 50%;
   background-color: rgba(133, 132, 132, 0.1);
 }
-.compose{
+.compose {
   height: 35px;
   width: 35px;
   align-items: center;
