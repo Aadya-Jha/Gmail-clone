@@ -222,6 +222,36 @@ select:hover {
   #six-dots {
     opacity: 1;
   }
+  .date {
+    opacity: 0;
+  }
+  .mail-card-utils {
+    display: flex;
+  }
+}
+.mail-card-utils {
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+.mail-card-utils > img {
+  padding: 0px 0 0 10px;
+}
+.mail-card-utils > #archive {
+  height: auto;
+  width: 2.8vh;
+}
+.mail-card-utils > #bin {
+  height: auto;
+  width: 2.7vh;
+}
+.mail-card-utils > #read {
+  height: auto;
+  width: 2.4vh;
+}
+.mail-card-utils > #clock {
+  height: auto;
+  width: 3vh;
 }
 .mail-left-part {
   display: flex;
