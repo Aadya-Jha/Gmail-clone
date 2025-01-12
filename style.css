@@ -403,6 +403,17 @@ select:hover {
   padding: 0 10px 0 10px;
   color: #0b57d0;
 }
+.menu{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 5px 5px 5px 10px;
+}
+.menu:hover{
+  border-radius: 50%;
+  background-color: rgba(133, 132, 132, 0.1);
+  cursor: pointer;
+}
 .bi-list {
   padding: 12px;
   margin: 4px;
@@ -423,28 +434,57 @@ select:hover {
   height: 7vh;
   width: auto;
   max-width: 12vw;
-  margin-right: 20px;
+  margin-right: 40px;
+}
+.gmail-logo:hover{
+  cursor: pointer;
 }
 .search-bar {
   padding: 10px;
   height: 7vh;
   width: 30vw;
-  color: rgb(128, 128, 128);
+  color: rgb(133, 127, 127);
+  background-color: #e7eced;
   display: flex;
   align-items: center;
   max-width: 60%;
   border-radius: 25px;
+  
 }
-.bi-search {
-  color: black;
+#search-box{
+  height: 40px;
+  width: 40px;
+  display: flex;
   align-items: center;
-  padding-right: 15px;
+  justify-content: center;
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+#search-box:hover{
+  cursor: pointer;
+  background-color:  rgba(133, 132, 132, 0.1);
+  border-radius: 50%;
+}
+.sliders{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliders-icon{
+  height: 30px;
+  width: 30px;
 }
 .header-bar {
   display: flex;
 }
 .search-mail {
-  padding-right: 120px;
+  padding-right: 250px;
+  padding-left: 5px;
+  font-size: 18px;
 }
 #support {
   height: auto;
@@ -454,6 +494,10 @@ select:hover {
   color: rgb(109, 107, 107);
   align-items: center;
   padding-top: px;
+}
+.support-icon{
+  height: 30px;
+  width: 30px;
 }
 #settings {
   display: flex;
@@ -572,7 +616,10 @@ select:hover {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   display: flex;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 0px 0px;
+}
+.left-side-icons{
+  margin-bottom: 25px;
 }
 .inbox-text{
   display: inline-block;
@@ -584,25 +631,41 @@ select:hover {
 .inbox-text-number{
   line-height: 30px;
 }
-.starred-icon, .snoozed-icon{
+.starred-icon, .snoozed-icon, .sent-icon, .more-icon{
   height: 25px;
   width: auto;
   margin: 2px 15px 2px 30px;
 }
-.starred, .snoozed{
-  background-color:rgb(148, 208, 208) ;
+.drafts-icon{
+  height: 20px;
+  width: 20px;
+  margin: 2px 15px 2px 32px;
+}
+.starred, .snoozed, .sent , .drafts, .more{
   height: 30px;
   width: 220px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   display: flex;
 }
-.starred-text, .snoozed-text{
+.starred-text, .snoozed-text, .sent-text, .drafts-text, .more-text{
   display: inline-block;
   justify-content: center;
   align-items: center;
   margin: 0px 80px 0px 0px;
   line-height: 30px;
+}
+.starred:hover, .snoozed:hover, .sent:hover , .drafts:hover, .more:hover{
+  cursor: pointer;
+  background-color: rgba(177, 173, 173, 0.1);
+}
+.labels{
+  margin-left: 33px;
+  margin-top: 45px;
+}
+.labels-text{
+  line-height: 0px;
+  margin-right: 100px;
 }
 #support {
   height: auto;
