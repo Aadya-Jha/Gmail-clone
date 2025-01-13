@@ -793,4 +793,7 @@ select:hover {
   line-height: 20px;
   display: inline-block;
 }
+.compose-box:hover{
+  box-shadow: 0px 8px 4px rgba(82, 81, 81, 0.1)
+}
 
