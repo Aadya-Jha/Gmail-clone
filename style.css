@@ -440,13 +440,13 @@ select:hover {
   cursor: pointer;
 }
 .outer-search-box{
-  width: 60vw;
+  width: 65vw;
   padding: 10px;
 }
 .search-bar {
   padding: 10px;
   height: 4.3vh;
-  width: 55vw;
+  width: 60vw;
   color: rgb(133, 127, 127);
   background-color: #e7eced;
   display: flex;
